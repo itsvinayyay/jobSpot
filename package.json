@@ -1,0 +1,24 @@
+{
+  "name": "job_spot_backend",
+  "version": "1.0.0",
+  "description": "Backend for Job Spot Mobile application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file .env src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinay Vashist",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "type": "module"
+}
